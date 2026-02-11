@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 name: agentic-shell-dotnet
 services:
   agentic-api:
@@ -16,7 +15,7 @@ resources:
   agentic-ui:
     type: host.containerapp
     uses:
-      - agentic-api
+    - agentic-api
     port: 80
 hooks:
   postprovision:
@@ -28,4 +27,5 @@ hooks:
       shell: pwsh
       run: ./infra/scripts/postprovision.ps1
       continueOnError: false
-
+metadata:
+  template: marketing-agents@1.0.0
