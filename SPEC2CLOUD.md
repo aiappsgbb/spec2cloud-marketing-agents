@@ -3,6 +3,8 @@ title: Marketing agents
 description: Description
 authors: [kostapetan]
 category: AI Apps & Agents
+maturity: Silver
+region: AMER
 industry: Retail
 services: [Microsoft Foundry, Azure Container Apps, Azure CosmosDB, Azure OpenAI]
 languages: []
@@ -13,4 +15,5 @@ extensions: []
 thumbnail: 
 video: 
 version: 1.0.0
+license: MIT
 ---
